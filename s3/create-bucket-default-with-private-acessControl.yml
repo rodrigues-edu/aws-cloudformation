@@ -1,0 +1,6 @@
+Resources:
+    S3BucketCloudFormation:
+      Type: 'AWS::S3::Bucket'
+      Properties:
+        BucketName: sample-bucket-import-file-input
+        AccessControl: Private
